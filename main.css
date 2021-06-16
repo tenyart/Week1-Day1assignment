@@ -1,0 +1,52 @@
+/* rule-set #1: Everything within the body tag will have a blue background. */
+body {
+    background-color: lightblue;
+}
+
+div.form
+{
+    border-style: outset;
+    display: inline-block;
+    text-align: center;
+    }
+form
+{
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    right: 300px;
+    left: 300px;
+    width: 300px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+.input-email{
+    position:relative;width:100%;overflow:hidden;
+    }
+    .input-email input{position:relative;height:45px;border-radius:30px;min-width:500px;box-shadow:none;border:1px solid #eaeaea;padding-left:160px;}
+    .input-email label{position: absolute;left:0;height:48px;background:#55ccf2;padding:0px 25px;border-radius:30px;line-height:48px;font-size:18px;color:#fff;top:0;width:100px;font-weight:100;}
+
+    .input-username{
+        position:relative;width:100%;overflow:hidden;
+        }
+        .input-username input{position:relative;height:45px;border-radius:30px;min-width:500px;box-shadow:none;border:1px solid #eaeaea;padding-left:160px;}
+        .input-username label{position:absolute;left:0;height:48px;background:#55ccf2;padding:0px 25px;border-radius:30px;line-height:48px;font-size:18px;color:#fff;top:0;width:100px;font-weight:100;}
+
+        .input-password{
+            position:relative;width:100%;overflow:hidden;
+            }
+            .input-password input{position:relative;height:45px;border-radius:30px;min-width:500px;box-shadow:none;border:1px solid #eaeaea;padding-left:160px;}
+            .input-password label{position:absolute;left:0;height:48px;background:#55ccf2;padding:0px 25px;border-radius:30px;line-height:48px;font-size:18px;color:#fff;top:0;width:100px;font-weight:100;}
+
+            .input-confirmpswd{
+                position:relative;width:100%;overflow:hidden;
+                }
+                .input-confirmpswd input{position:relative;height:45px;border-radius:30px;min-width:500px;box-shadow:none;border:1px solid #eaeaea;padding-left:160px;}
+                .input-confirmpswd label{position:absolute;left:0;height:48px;background:#55ccf2;padding:0px 25px;border-radius:30px;line-height:48px;font-size:18px;color:#fff;top:0;width:100px;font-weight:100;}
+
